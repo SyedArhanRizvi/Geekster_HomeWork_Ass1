@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: black; */
+    border: 2px solid black;
+    border-style: dashed;
+    color: black;
+    padding: 30px;
+    font-size: 1.3em;
+}
+.box >h1{
+    font-size: 3.5rem;
+}
+.box >par1{
+    font-size: 1.4rem;
+    color: rgb(94, 92, 92);
+    line-height: 2rem;
+}
+.box >par2{
+    font-size: 1.4rem;
+    color: rgb(94, 92, 92);
+    line-height: 2rem;
+}
+.box >par3{
+    font-size: 1.4rem;
+    color: rgb(94, 92, 92);
+    line-height: 2rem;
+}
